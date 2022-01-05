@@ -2,6 +2,7 @@
 
 
 **Test Plan**
+
 Test Plan should include following :
 Functional Testing
 Stress/Load Testing/Performance Testing
@@ -10,15 +11,17 @@ Automation Testing
 OS platform compatibility testing with Windows and Mac\linux.
 
 **Test Scope/Coverage Choice**
+
 Test cases should cover positive functional & negative functional flow and Error testing.
 I prefer to choose positive,negative abd error testing flow to make sure that system is able to handle all scenarios and does not crash.
 Also I wopuld like to run following all scenarios on Windows and Mac\linux to make sure that the application is compatible and no issues are seen howveer for my testing deliverable submission I tested it only on Windows.
 
 **Pre conditions for all the following test cases**
+
 1 Environment should be set up for hash application.
 2 Port environment variable 8088 should be set.
 
-**Functional Testing Scenarios**
+**Positive/Negative Functional Testing Scenarios**
 
 1)**TC-1** 
 Steps
@@ -181,5 +184,6 @@ I should not be able to connect and shut down hash application if I am not on ri
 I can connect to the hash application with different port 8089 or 1 and was able to shut it down on port 8089 or 1 using same command which I used for port 8088.**
 
 **Few Observations**
+
 When I connect to the hash window it does not show any message that windows is connected to the hash application should it ?
 Should there be a shutdown time like 5-6 seconds or less to test shutdown scenarios ?
