@@ -50,7 +50,7 @@ Verify it should return a job identifier immediately.
 
 Verify system should wait for 5 seconds and hashing algorithm SHA512 should compute password hash.
 
-**Execution Status- Failed-It is not returning job identifier immediately but it is taking appx. 5 seconds.
+**Execution Status Failed-It is not returning job identifier immediately but it is taking appx. 5 seconds.**
 
 3) **TC-3**
 
@@ -82,7 +82,7 @@ Verify it should return a JSON data structure.
 
 Verify it should show count of Total hash requests since the server started and average time of a hash request is in milliseconds.
 
-**Execution Status-Failed- I think the time dispplayed for average time in milliseconds is not calculated right.
+**Execution Status-Failed- I think the time dispplayed for average time in milliseconds is not calculated right.**
 
 Also The hash app window does not show the successful requests but only the malformed input count.Not sure if this is expected?
    
