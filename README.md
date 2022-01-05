@@ -4,11 +4,17 @@
 **Test Plan**
 
 Test Plan should include following :
+
 Functional Testing
+
 Stress/Load Testing/Performance Testing
+
 Security Testing
+
 Automation Testing
+
 OS platform compatibility testing with Windows and Mac\linux.
+
 
 **Test Scope/Coverage Choice**
 
