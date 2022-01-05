@@ -19,15 +19,15 @@ OS platform compatibility testing with Windows and Mac\linux.
 **Test Scope/Coverage Choice**
 
 Test cases should cover positive functional & negative functional flow and Error testing.
-I prefer to choose positive,negative abd error testing flow to make sure that system is able to handle all scenarios and does not crash.
-Also I wopuld like to run following all scenarios on Windows and Mac\linux to make sure that the application is compatible and no issues are seen howveer for my testing deliverable submission I tested it only on Windows.
+I prefer positive,negative abd error testing flow to make sure that system is able to handle all scenarios and does not crash.
+Also it will be good from coverage perspective to run following all scenarios on Windows and Mac\linux to make sure that the application is compatible and no issues are seen. Howver for my testing deliverable submission I have only tested it on Windows.
 
 **Pre conditions for all the following test cases**
 
 1 Environment should be set up for hash application.
 2 Port environment variable 8088 should be set.
 
-**Positive/Negative Functional Testing Scenarios**
+**Positive/Negative Functional Testing & Error Scenarios**
 
 1)**TC-1** 
 Steps
@@ -93,7 +93,6 @@ Post to /hash with a new password in another window.
 Verify when shutdown is pending no new request should be allowed.
 **Execution Status-Unexecuted-Shutdown is so quick so I could not verify this scenario.**
 
-**Negative testing Scenarios**
 9) **TC-9**
 Steps
 Post to /hash twice and use same password for both command.
@@ -193,3 +192,12 @@ I can connect to the hash application with different port 8089 or 1 and was able
 
 When I connect to the hash window it does not show any message that windows is connected to the hash application should it ?
 Should there be a shutdown time like 5-6 seconds or less to test shutdown scenarios ?
+
+**Automation Testing**
+
+Automation testing can be planned for following scenarios :
+
+1 Verify software is able to process multiple connections simultaneously.
+2 Verify shutdown scenarios for inflight hashing,reject any new request and no additional password request is allowed when shutdown is pending.
+3 Send multiple post requests at same time for multiple connections to check stress/load/performance testing.
+4 Run automation scripts for windows and Ma\Linux and make sure both connections work fine togerther and hash application is able to handle all requests.And Total Stats should count server requests from both the platforms.
