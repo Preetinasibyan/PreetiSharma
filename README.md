@@ -205,13 +205,15 @@ However I was able to shutdown the hash application on port 8089 or 1 using same
 
 **Defects**
 
-Defects
+
 
 **1st Defect**
 
 Steps
 
 Post to /hash with a password.
+
+Verify returned Job identifier.
 
 **Expected Result**
 
@@ -221,12 +223,15 @@ Verify it should return a job identifier immediately.
 
 Job identifier takes 5 seconds to return but it should return immediately.
 
+
 **2nd Defect**
 
 Steps
 
 Post to /hash with a password.
+
 Run Get to /hash and use the identifier returned in above step.
+
 Run Get to /stats with data.
 
 **Expected Result**
@@ -237,12 +242,15 @@ Verify average time of a hash request is in milliseconds.
 
 I think the time dispplayed for average time in milliseconds is not calculated right.
 
+
 **3rd Defect**
 
 Steps
 
 Post 2 requests to /hash with correct password.
+
 Post 2 requests to /hash with malformed data.
+
 Run Get to /stats with data.
 
 **Expected Result**
@@ -254,11 +262,13 @@ Verify it should show count of Total hash requests since the server started
 The hash app window does not show the successful requests but only the malformed input count.
 Not sure if this is expected?
 
+
 **4th Defect**
 
 Steps
 
 Connect to hash application.
+
 Run shutdown /hash.
 
 **Expected Result**
@@ -268,6 +278,7 @@ Verify the server should return 200 and shutdown hash application.
 **Actual Result**
 
 The server did not return 200.
+
 
 **5th Defect**
 
@@ -283,11 +294,13 @@ Verify system should throw an error to enter password or some other error messag
 
 Job identifier is returned for blank password and it generated base64 value but it should not.
 
+
 **6th Defect**
 
 Steps
 
 Change Port environment variable value to 8089 or 1 application is connected.
+
 Now Shutdown the application.
 
 **Expected Result**
@@ -298,10 +311,13 @@ I should not be able to connect and shut down hash application if I am not on ri
 
 I can connect to the hash application with different port 8089 or 1 and was able to shut it down on port 8089 or 1 using same command which I used for port 8088.**
 
+
 **Few Observations**
 
 When I connect to the hash window it does not show any message that windows is connected to the hash application should it ?
+
 Should there be a shutdown time like 5-6 seconds or less to test shutdown scenarios ?
+
 
 **Automation Testing**
 
@@ -313,4 +329,5 @@ Automation testing can be planned for following scenarios :
 
 3 Send multiple post requests at same time for multiple connections to check stress/load/performance testing.
 
-4 Run automation scripts for windows and Ma\Linux and make sure both connections work fine togerther and hash application is able to handle all requests.And Total Stats should count server requests from both the platforms.
+4 Run automation scripts for windows and Ma\Linux and make sure both connections work fine togerther and hash application is able to handle all requests.
+And Total Stats should count server requests from both the platforms.
