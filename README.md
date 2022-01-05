@@ -25,11 +25,12 @@ Also it will be good from coverage perspective to run following all scenarios on
 **Pre conditions for all the following test cases**
 
 1 Environment should be set up for hash application.
+
 2 Port environment variable 8088 should be set.
 
 **Positive/Negative Functional Testing & Error Scenarios**
 
-1)**TC-1** 
+1) **TC-1** 
 Steps
 Launch the application and verify that the application should wait for http connections.
 Launch the application and it should answer in the port environment variable.
