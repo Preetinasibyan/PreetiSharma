@@ -3,7 +3,7 @@
 
 **Test Plan**
 
-Test Plan should include following :
+Test Plan should include the following :
 
 Functional Testing
 
