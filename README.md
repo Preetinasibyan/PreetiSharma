@@ -21,17 +21,20 @@ However for my deliverable submission I will be doing only A)Manual testing and 
 
 Test cases should cover positive & negative functional flows and error testing.
 I have chosen positive,negative and error testing flows to make sure that software is able to handle all functional and edgecase scenarios.
+
 Stress/Load/Performance/Security testing will help to make sure that software is scalable and secure for clients.
-Also it will be good to run following all scenarios on both Windows and Mac\linux to make sure that the application is compatible and no issues are seen. 
-And for my testing deliverable submission I have only tested it on Windows.
-Automation testing will help to run regression suites to make sure software still works as expected even if any defect is fixed or enhancement is implemented and also when we need to run same test cases on multiple connections.
+
+Running these TCs on both Windows and Mac\linux will make sure that the application is compatible and no issues are seen. 
+For my testing deliverable submission I have only tested it on Windows.
+
+Automation testing can be used for regression to make sure software still works as expected even if any defect is fixed or an enhancement is implemented and also it is helpful for multiple connection scenarios.
 
 **Positive/Negative Functional & Error testing test cases,execution results and defect report can be found here**
 
 https://docs.google.com/spreadsheets/d/1ZftcZHGmJe8wQp5eh1Ys8qFZl1of7iMtgNNwt7WpmNk/edit#gid=0
 
-(** If you can't access the sheet pls let me know your email id and I will give you the access.I already shared this sheet with robert.mulley@jumpcloud.com
-alicia.murray@jumpcloud.com and andi.serow@jumpcloud.com** ).
+(** If you can't access the sheet pls let me know your email id and I will give you the access.I have already shared this sheet with robert.mulley@jumpcloud.com ,
+alicia.murray@jumpcloud.com and andi.serow@jumpcloud.com ** ).
 
 
 **Few more Observations**
