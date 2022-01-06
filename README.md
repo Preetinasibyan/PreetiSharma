@@ -15,7 +15,7 @@ D) Automation Testing
 
 E) OS platform compatibility testing with Windows and Mac\linux.
 
-However for my deliverable submission I will be doing only A)Manual testing and will cover some points on D)automation testing :
+However for my deliverable submission I will be doing only A)Manual testing and will cover some points on D)Automation testing :
 
 **Test Scope/Coverage Choices**
 
