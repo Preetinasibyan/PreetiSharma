@@ -30,6 +30,9 @@ Automation testing will help to run regression suites to make sure software stil
 
 https://docs.google.com/spreadsheets/d/1ZftcZHGmJe8wQp5eh1Ys8qFZl1of7iMtgNNwt7WpmNk/edit#gid=0
 
+(** If you can't access the sheet pls let me know your email id and I will give you the access.I already shared this sheet with robert.mulley@jumpcloud.com
+alicia.murray@jumpcloud.com and andi.serow@jumpcloud.com** ).
+
 
 **Few more Observations**
 
@@ -39,7 +42,7 @@ https://docs.google.com/spreadsheets/d/1ZftcZHGmJe8wQp5eh1Ys8qFZl1of7iMtgNNwt7Wp
 
 
 
-**Automation Testing **
+**Automation Testing**
 
 Automation testing can be planned for following scenarios :
 
@@ -49,7 +52,7 @@ Automation testing can be planned for following scenarios :
 
 3 Send multiple post requests at same time using multiple connections for stress/load/performance testing.
 
-4 Run automation scripts for windows and Mac\Linux and make sure both connections work fine togerther and hash application is able to handle all requests.
+4 Run automation scripts for windows and Mac\Linux and make sure both connections work fine together and hash application is able to handle all requests.
   And Total Stats should count server requests from both the platforms.
   
   
