@@ -19,7 +19,7 @@ However for my deliverable submission I will be doing only A)Manual testing and 
 
 **Test Scope/Coverage Choices**
 
-Test cases should cover positive & negative functional flows and error testing.
+Test cases should cover positive & negative functional flows and error testing and to sure that software is working as per the requirements defined in the specification document.
 I have chosen positive,negative and error testing flows to make sure that software is able to handle all functional and edgecase scenarios.
 
 Stress/Load/Performance/Security testing will help to make sure that software is scalable and secure for clients.
