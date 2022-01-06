@@ -31,10 +31,8 @@ Automation testing can be used for regression to make sure software still works 
 
 **Positive/Negative Functional & Error testing test cases,execution results and defect report can be found here**
 
-https://docs.google.com/spreadsheets/d/1ZftcZHGmJe8wQp5eh1Ys8qFZl1of7iMtgNNwt7WpmNk/edit#gid=0
+I have attached excel sheet for Test cases, Test Execution and Defects if you can't access please let me know.
 
-(** If you can't access the sheet pls let me know your email id and I will give you the access.I have already shared this sheet with robert.mulley@jumpcloud.com ,
-alicia.murray@jumpcloud.com and andi.serow@jumpcloud.com ** ).
 
 
 **Few more Observations**
